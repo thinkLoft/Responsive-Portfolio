@@ -1,0 +1,88 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a:hover {
+  background-color: teal;
+  color: white;
+}
+
+.nav a {
+  margin: 0 10px;
+  color: #777;
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+  border-color: #ccc;
+  border-bottom-style: solid;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 960px;
+  margin: 0 auto;
+  color: #777777;
+}
+
+.logo {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 5px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+  background-color: #666;
+  margin: 0 auto;
+  padding: 5px;
+  color: #fff;
+  border-top: 5px solid #4aaaa5;
+  text-align: center;
+}
+
+.main {
+  background-color: #ffffff;
+  border-color: #ddd;
+  border-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin: 10px auto;
+  color: #777777;
+}
+
+.content {
+  padding: 20px;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.aboutmepic {
+  padding: 0 15px;
+  float: left;
+}
+
+h2,
+h3,
+h4,
+h5,
+hr {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
+  margin: 0;
+}
+
+input[type='text'],
+textarea {
+  width: 98%;
+}
